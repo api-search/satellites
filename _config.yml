@@ -1,0 +1,46 @@
+name: APIs.io - Satellites
+description: The APIs that make satellites possible, as well as a number of other related capabilities.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+url: https://satellites.apis.io
+
+node: satellites
+
+keywords:
+
+- Satellites
+
+permalink: /:categories/:year/:month/:day/:title/
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+categories_path : /categories.html
+tags_path : /tags.html
+
+github_org: api-search
+github_repo: satellites
+
+search_local: true
+search_url: https://search-api.apis.io/search/apis
+
+collections:
+  apis:
+    output: true
+    permalink: /apis/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/   
+
+defaults:
+
+  - scope:
+      path:         ""
+      type:         apis
+    values:
+      layout:       apis
+
+  - scope:
+      path:         ""
+      type:         tags
+    values:
+      layout:       tags      
+     

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.name }} - {{ page.title }}</title>
+    <link href="{{ site.url }}/assets/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/sticky-footer.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/bootstrap-toggle.min.css" rel="stylesheet"> 
+    <script src="{{ site.url }}/assets/jquery-3.7.1.min.js"></script> 
+    <script src="{{ site.url }}/assets/bootstrap.bundle.min.js"></script>
+    <script src="{{ site.url }}/assets/bootstrap-toggle.min.js"></script>  
+    <script src="{{ site.url }}/assets/js-yaml.min.js"></script>    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H4KFSEF6P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6H4KFSEF6P');
+    </script>     
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">{{ site.name }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://apis.io/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/about/">About</a>
+            </li>   
+            {% if site.node != 'website' %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.url }}/apis/">APIs</a>
+            </li> 
+            {% endif %}                                                
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/network/">Network</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/support/">Support</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/blog/">Blog</a>
+            </li>                     
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/add/">Add</a>
+            </li>                                                
+          </ul>
+          {% if page.title != 'Network Search' %}
+            <!--
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+          {% endif %} 
+        </div>
+      </div>
+    </nav>
+    <!--
+    <div class="alert alert-danger" role="alert" style="text-align: center;">
+      This Search is in an Alpha Stage -- <a href="https://github.com/api-search/explore/issues">Submit An Issue</a>!
+    </div>
+    -->
+    <div class="container my-5">
+      {{ content }}
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row">
+              <div class="col">
+                <a href="http://apicommons.org" style="color: #000;">API Commons</a>
+              </div>
+              <div class="col">
+                <td><a href="https://developer.apis.io" style="color: #000;">Developers</a></td>
+              </div>
+              <div class="col">
+                <a href="https://github.com/api-search/api-search" style="color: #000;">GitHub</a>
+              </div>     
+          </div>
+      </div>         
+      </div>
+    </footer>
+    
+  </body>
+</html>

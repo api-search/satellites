@@ -1,0 +1,3036 @@
+<!doctype html>
+<html lang="en">
+  <head>   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APIs.io - Payments - Apis</title>
+    <link href="http://localhost:4000/assets/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:4000/assets/sticky-footer.css" rel="stylesheet">
+    <link href="http://localhost:4000/assets/bootstrap-toggle.min.css" rel="stylesheet"> 
+    <script src="http://localhost:4000/assets/jquery-3.7.1.min.js"></script> 
+    <script src="http://localhost:4000/assets/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost:4000/assets/bootstrap-toggle.min.js"></script>  
+    <script src="http://localhost:4000/assets/js-yaml.min.js"></script>    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H4KFSEF6P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6H4KFSEF6P');
+    </script>     
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">APIs.io - Payments</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://apis.io/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/about/">About</a>
+            </li>   
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/apis/">APIs</a>
+            </li> 
+                                                            
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/network/">Network</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/support/">Support</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/blog/">Blog</a>
+            </li>                     
+            <li class="nav-item">
+              <a class="nav-link" href="https://apis.io/add/">Add</a>
+            </li>                                                
+          </ul>
+          
+            <!--
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+           
+        </div>
+      </div>
+    </nav>
+    <!--
+    <div class="alert alert-danger" role="alert" style="text-align: center;">
+      This Search is in an Alpha Stage -- <a href="https://github.com/api-search/explore/issues">Submit An Issue</a>!
+    </div>
+    -->
+    <div class="container my-5">
+      <div class="uk-section">
+    <div class="uk-container uk-container-xlarge">
+        <article class="uk-article">       
+            
+                     
+            
+            <div class="article-content">
+                <div style="border: 0px solid #000; width: 100%; padding: 0px; margin: 0px; border-radius: 25px;" id="map-stripe-shell">
+                    
+                    
+                    
+                    <h1 class="uk-article-title">Stripe (<a href="https://raw.githubusercontent.com/api-search/payments/main/_apis/stripe/apis.md">APIs.json</a>)</h1>                 
+                    <p style="width: 75%;">Millions of companies of all sizes use Stripe online and in person to accept payments, send payouts, automate financial processes, and ultimately grow revenue.</p>  
+                    
+
+                        <a name="Stripe Accounts API"></a>
+                        <h3>Stripe Accounts API</h3>
+                        <p>This is an object representing a Stripe account. You can retrieve it to see properties on the account like its current requirements or if the account is enabled to make live charges or receive payouts.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/accounts">Documentation</a></li>
+                            
+                                <li><a href="properties/accounts-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Capabilities</li>
+                                
+                            
+                                
+                                    <li>External</li>
+                                
+                            
+                                
+                                    <li>Links</li>
+                                
+                            
+                                
+                                    <li>Login</li>
+                                
+                            
+                                
+                                    <li>People</li>
+                                
+                            
+                                
+                                    <li>Person</li>
+                                
+                            
+                                
+                                    <li>Persons</li>
+                                
+                            
+                                
+                                    <li>Reject</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Apple Pay API"></a>
+                        <h3>Stripe Apple Pay API</h3>
+                        <p>Stripe users can accept Apple Pay in iOS applications in iOS 9 and above, and on the web in Safari starting with iOS 10 or macOS Sierra. There are no additional fees to process Apple Pay payments, and the pricing is the same as other card transactions.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/apple-pay">Documentation</a></li>
+                            
+                                <li><a href="properties/apple-pay-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Apple</li>
+                                
+                            
+                                
+                                    <li>Domains</li>
+                                
+                            
+                                
+                                    <li>Pay</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Application Fees API"></a>
+                        <h3>Stripe Application Fees API</h3>
+                        <p>When you collect a transaction fee on top of a charge made for your user (using Connect), an Application Fee object is created in your account. You can list, retrieve, and refund application fees.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/application_fees">Documentation</a></li>
+                            
+                                <li><a href="properties/application-fees-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Applications</li>
+                                
+                            
+                                
+                                    <li>Fees</li>
+                                
+                            
+                                
+                                    <li>Fee</li>
+                                
+                            
+                                
+                                    <li>Refunds</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Application Secrets API"></a>
+                        <h3>Stripe Application Secrets API</h3>
+                        <p>Secret Store is an API that allows Stripe Apps developers to securely persist secrets for use by UI Extensions and app backends.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/secret_management">Documentation</a></li>
+                            
+                                <li><a href="properties/application-secrets-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Applications</li>
+                                
+                            
+                                
+                                    <li>Secrets</li>
+                                
+                            
+                                
+                                    <li>Find</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Balance API"></a>
+                        <h3>Stripe Balance API</h3>
+                        <p>This is an object representing your Stripe balance. You can retrieve it to see the balance currently on your Stripe account. You can also retrieve the balance history, which contains a list of transactions that contributed to the balance (charges, payouts, and so forth).</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/balance">Documentation</a></li>
+                            
+                                <li><a href="properties/balance-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>History</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Billing API"></a>
+                        <h3>Stripe Billing API</h3>
+                        <p>Create and manage subscriptions, recurring payments, and recurring revenue.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/billing">Documentation</a></li>
+                            
+                                <li><a href="properties/billing-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Billing</li>
+                                
+                            
+                                
+                                    <li>Configurations</li>
+                                
+                            
+                                
+                                    <li>Portals</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Charges API"></a>
+                        <h3>Stripe Charges API</h3>
+                        <p>The Charge object represents a single attempt to move money into your Stripe account. PaymentIntent confirmation is the most common way to create Charges, but transferring money to a different Stripe account through Connect also creates Charges. Some legacy payment flows create Charges directly, which is not recommended for new integrations.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/charges">Documentation</a></li>
+                            
+                                <li><a href="properties/charges-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Charges</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                            
+                                
+                                    <li>Charge</li>
+                                
+                            
+                                
+                                    <li>Capture</li>
+                                
+                            
+                                
+                                    <li>Disputes</li>
+                                
+                            
+                                
+                                    <li>Close</li>
+                                
+                            
+                                
+                                    <li>Refunds</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Checkout API"></a>
+                        <h3>Stripe Checkout API</h3>
+                        <p>Checkout is a low-code payment integration that creates a customizable form for collecting payments. You can embed Checkout directly in your website or redirect customers to a Stripe-hosted payment page. It supports one-time payments and subscriptions and accepts over 40 local payment methods.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/payments/checkout">Documentation</a></li>
+                            
+                                <li><a href="properties/checkout-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Checkout</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                            
+                                
+                                    <li>Expire</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Line</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Climate API"></a>
+                        <h3>Stripe Climate API</h3>
+                        <p>Stripe Climate is the easiest way to help promising permanent carbon removal technologies launch and scale. Join a growing group of ambitious businesses that are changing the course of carbon removal.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/climate">Documentation</a></li>
+                            
+                                <li><a href="properties/climate-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Climate</li>
+                                
+                            
+                                
+                                    <li>Orders</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Products</li>
+                                
+                            
+                                
+                                    <li>Reservations</li>
+                                
+                            
+                                
+                                    <li>Confirm</li>
+                                
+                            
+                                
+                                    <li>Suppliers</li>
+                                
+                            
+                                
+                                    <li>Supplier</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Country API"></a>
+                        <h3>Stripe Country API</h3>
+                        <p>Stripe needs to collect certain pieces of information about each account created. These requirements can differ depending on the account’s country. The Country Specs API makes these rules available to your integration.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/country_specs">Documentation</a></li>
+                            
+                                <li><a href="properties/country-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Countries</li>
+                                
+                            
+                                
+                                    <li>Specs</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Coupons API"></a>
+                        <h3>Stripe Coupons API</h3>
+                        <p>A coupon contains information about a percent-off or amount-off discount you might want to apply to a customer. Coupons may be applied to subscriptions, invoices, checkout sessions, quotes, and more. Coupons do not work with conventional one-off charges or payment intents.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/coupons">Documentation</a></li>
+                            
+                                <li><a href="properties/coupons-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Coupons</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Credit Notes API"></a>
+                        <h3>Stripe Credit Notes API</h3>
+                        <p>Issue a credit note to adjust an invoice’s amount after the invoice is finalized.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/credit_notes">Documentation</a></li>
+                            
+                                <li><a href="properties/credit-notes-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Credit</li>
+                                
+                            
+                                
+                                    <li>Notes</li>
+                                
+                            
+                                
+                                    <li>Previews</li>
+                                
+                            
+                                
+                                    <li>Lines</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Customers API"></a>
+                        <h3>Stripe Customers API</h3>
+                        <p>This object represents a customer of your business. Use it to create recurring charges and track payments that belong to the same customer.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/customers">Documentation</a></li>
+                            
+                                <li><a href="properties/customers-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Customers</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Bank</li>
+                                
+                            
+                                
+                                    <li>Verify</li>
+                                
+                            
+                                
+                                    <li>Cards</li>
+                                
+                            
+                                
+                                    <li>Cash</li>
+                                
+                            
+                                
+                                    <li>Discount</li>
+                                
+                            
+                                
+                                    <li>Funding</li>
+                                
+                            
+                                
+                                    <li>Instructions</li>
+                                
+                            
+                                
+                                    <li>Methods</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Sources</li>
+                                
+                            
+                                
+                                    <li>Subscriptions</li>
+                                
+                            
+                                
+                                    <li>Exposed</li>
+                                
+                            
+                                
+                                    <li>Ids</li>
+                                
+                            
+                                
+                                    <li>Taxes</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Disputes API"></a>
+                        <h3>Stripe Disputes API</h3>
+                        <p>A dispute occurs when a customer questions your charge with their card issuer. When this happens, you have the opportunity to respond to the dispute with evidence that shows that the charge is legitimate.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/disputes">Documentation</a></li>
+                            
+                                <li><a href="properties/disputes-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Disputes</li>
+                                
+                            
+                                
+                                    <li>Close</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Ephemeral Keys API"></a>
+                        <h3>Stripe Ephemeral Keys API</h3>
+                        <p>Stripe.js uses ephemeral keys to securely retrieve Card information from the Stripe API without publicly exposing your secret keys. You need to do some of the ephemeral key exchange on the server-side to set this up.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/issuing/elements">Documentation</a></li>
+                            
+                                <li><a href="properties/ephemeral-keys-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Ephemeral</li>
+                                
+                            
+                                
+                                    <li>Keys</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Events API"></a>
+                        <h3>Stripe Events API</h3>
+                        <p>Events are our way of letting you know when something interesting happens in your account. When an interesting event occurs, we create a new Event object.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/events">Documentation</a></li>
+                            
+                                <li><a href="properties/events-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Events</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Exchange Rates API"></a>
+                        <h3>Stripe Exchange Rates API</h3>
+                        <p>Stripe supports processing charges in 135+ currencies allowing you to present prices in a customer’s native currency. Doing so can improve sales and help customers avoid conversion costs. In order to present prices in your customer’s currency, you need to specify the presentment currency when creating a PaymentIntent or a charge.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/currencies/conversions">Documentation</a></li>
+                            
+                                <li><a href="properties/exchange-rates-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Exchange</li>
+                                
+                            
+                                
+                                    <li>Rates</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Files API"></a>
+                        <h3>Stripe Files API</h3>
+                        <p>This object represents files hosted on Stripe’s servers. You can upload files with the create file request (for example, when uploading dispute evidence). Stripe also creates files independently (for example, the results of a Sigma scheduled query).</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/files">Documentation</a></li>
+                            
+                                <li><a href="properties/files-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Files</li>
+                                
+                            
+                                
+                                    <li>File</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Financial Connections API"></a>
+                        <h3>Stripe Financial Connections API</h3>
+                        <p>Financial Connections lets your users securely share their financial data by linking their financial accounts to your business. Use Financial Connections to access user-permissioned account data such as tokenized account and routing numbers, balances, ownerships details, and transactions.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/financial-connections">Documentation</a></li>
+                            
+                                <li><a href="properties/financial-connections-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Connections</li>
+                                
+                            
+                                
+                                    <li>Financial</li>
+                                
+                            
+                                
+                                    <li>Disconnect</li>
+                                
+                            
+                                
+                                    <li>Owners</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                            
+                                
+                                    <li>Subscribe</li>
+                                
+                            
+                                
+                                    <li>Unsubscribe</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Identity API"></a>
+                        <h3>Stripe Identity API</h3>
+                        <p>Use Stripe Identity to confirm the identity of global users to prevent fraud, streamline risk operations, and increase trust and safety.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/identity">Documentation</a></li>
+                            
+                                <li><a href="properties/identity-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Entities</li>
+                                
+                            
+                                
+                                    <li>Identity</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Verification</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Redact</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Invoice API"></a>
+                        <h3>Stripe Invoice API</h3>
+                        <p>Invoices are statements of amounts owed by a customer, and are either generated one-off, or generated periodically from a subscription.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/invoices">Documentation</a></li>
+                            
+                                <li><a href="properties/invoice-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Invoice Items</li>
+                                
+                            
+                                
+                                    <li>Invoices</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                            
+                                
+                                    <li>Upcoming</li>
+                                
+                            
+                                
+                                    <li>Lines</li>
+                                
+                            
+                                
+                                    <li>Finalize</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Line</li>
+                                
+                            
+                                
+                                    <li>Mark</li>
+                                
+                            
+                                
+                                    <li>Uncollectible</li>
+                                
+                            
+                                
+                                    <li>Pay</li>
+                                
+                            
+                                
+                                    <li>Send</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Issuing API"></a>
+                        <h3>Stripe Issuing API</h3>
+                        <p>An API for businesses to instantly create, manage, and distribute payment cards.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/issuing">Documentation</a></li>
+                            
+                                <li><a href="properties/issuing-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Authorization</li>
+                                
+                            
+                                
+                                    <li>Issuing</li>
+                                
+                            
+                                
+                                    <li>Approve</li>
+                                
+                            
+                                
+                                    <li>Decline</li>
+                                
+                            
+                                
+                                    <li>Card Holders</li>
+                                
+                            
+                                
+                                    <li>Cards</li>
+                                
+                            
+                                
+                                    <li>Disputes</li>
+                                
+                            
+                                
+                                    <li>Submit</li>
+                                
+                            
+                                
+                                    <li>Settlements</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Link API"></a>
+                        <h3>Stripe Link API</h3>
+                        <p>You can use the Payment Links API to create a payment link that you can share with your customers. Stripe redirects customers who open this link to a Stripe-hosted payment page.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/payment-links/api">Documentation</a></li>
+                            
+                                <li><a href="properties/link-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Link</li>
+                                
+                            
+                                
+                                    <li>Sessions</li>
+                                
+                            
+                                
+                                    <li>Linked</li>
+                                
+                            
+                                
+                                    <li>Disconnect</li>
+                                
+                            
+                                
+                                    <li>Owners</li>
+                                
+                            
+                                
+                                    <li>Refresh</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Payment Intents API"></a>
+                        <h3>Stripe Payment Intents API</h3>
+                        <p>A PaymentIntent guides you through the process of collecting a payment from your customer. We recommend that you create exactly one PaymentIntent for each order or customer session in your system. You can reference the PaymentIntent later to see the history of payment attempts for a particular session.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/payment_intents">Documentation</a></li>
+                            
+                                <li><a href="properties/payment-intents-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Intents</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                            
+                                
+                                    <li>Intent</li>
+                                
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Customers</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Capture</li>
+                                
+                            
+                                
+                                    <li>Confirm</li>
+                                
+                            
+                                
+                                    <li>Authorization</li>
+                                
+                            
+                                
+                                    <li>Increment</li>
+                                
+                            
+                                
+                                    <li>Microdeposits</li>
+                                
+                            
+                                
+                                    <li>Verify</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Payment Links API"></a>
+                        <h3>Stripe Payment Links API</h3>
+                        <p>A payment link is a shareable URL that will take your customers to a hosted payment page. A payment link can be shared and used multiple times. When a customer opens a payment link it will open a new checkout session to render the payment page. You can use checkout session events to track payments through payment links.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/payment_links/payment_links">Documentation</a></li>
+                            
+                                <li><a href="properties/payment-links-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Links</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Link</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Line</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Payment Method API"></a>
+                        <h3>Stripe Payment Method API</h3>
+                        <p>The Payment Methods API allows you to accept a variety of payment methods through a single API. A PaymentMethod object contains the payment method details to create payments.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/payments/payment-methods">Documentation</a></li>
+                            
+                                <li><a href="properties/payment-method-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Configurations</li>
+                                
+                            
+                                
+                                    <li>Methods</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Domains</li>
+                                
+                            
+                                
+                                    <li>Ate</li>
+                                
+                            
+                                
+                                    <li>Val</li>
+                                
+                            
+                                
+                                    <li>Validate</li>
+                                
+                            
+                                
+                                    <li>Attach</li>
+                                
+                            
+                                
+                                    <li>Detach</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Payouts API"></a>
+                        <h3>Stripe Payouts API</h3>
+                        <p>A Payout object is created when you receive funds from Stripe, or when you initiate a payout to either a bank account or debit card of a connected Stripe account. You can retrieve individual payouts, and list all payouts. Payouts are made on varying schedules, depending on your country and industry.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/payouts">Documentation</a></li>
+                            
+                                <li><a href="properties/payouts-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Payouts</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Reverse</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Plans API"></a>
+                        <h3>Stripe Plans API</h3>
+                        <p>You can now model subscriptions more flexibly using the Prices API. It replaces the Plans API and is backwards compatible to simplify your migration.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/plans">Documentation</a></li>
+                            
+                                <li><a href="properties/plans-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Plans</li>
+                                
+                            
+                                
+                                    <li>Plan</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Prices API"></a>
+                        <h3>Stripe Prices API</h3>
+                        <p>Prices define the unit cost, currency, and (optional) billing cycle for both recurring and one-time purchases of products. Products help you track inventory or provisioning, and prices help you track payment terms. Different physical goods or levels of service should be represented by products, and pricing options should be represented by prices. This approach lets you change prices without having to change your provisioning scheme.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/prices">Documentation</a></li>
+                            
+                                <li><a href="properties/prices-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Prices</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Products API"></a>
+                        <h3>Stripe Products API</h3>
+                        <p>Products describe the specific goods or services you offer to your customers. For example, you might offer a Standard and Premium version of your goods or service; each version would be a separate Product. They can be used in conjunction with Prices to configure pricing in Payment Links, Checkout, and Subscriptions.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/products">Documentation</a></li>
+                            
+                                <li><a href="properties/products-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Products</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Promotion Codes API"></a>
+                        <h3>Stripe Promotion Codes API</h3>
+                        <p>A Promotion Code represents a customer-redeemable code for a coupon. It can be used to create multiple codes for a single coupon.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/promotion_codes">Documentation</a></li>
+                            
+                                <li><a href="properties/promotion-codes-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Codes</li>
+                                
+                            
+                                
+                                    <li>Promotion</li>
+                                
+                            
+                                
+                                    <li>Code</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Quotes API"></a>
+                        <h3>Stripe Quotes API</h3>
+                        <p>A Quote is a way to model prices that you’d like to provide to a customer. Once accepted, it will automatically create an invoice, subscription or subscription schedule.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/quotes">Documentation</a></li>
+                            
+                                <li><a href="properties/quotes-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Quotes</li>
+                                
+                            
+                                
+                                    <li>Accept</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Computed</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Line</li>
+                                
+                            
+                                
+                                    <li>Upfront</li>
+                                
+                            
+                                
+                                    <li>Finalize</li>
+                                
+                            
+                                
+                                    <li>PDF</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Radar API"></a>
+                        <h3>Stripe Radar API</h3>
+                        <p>Stripe Radar provides real-time fraud protection and requires no additional development time. Fraud professionals can add Radar for Fraud Teams to customize protection and get deeper insights.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/radar">Documentation</a></li>
+                            
+                                <li><a href="properties/radar-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Early</li>
+                                
+                            
+                                
+                                    <li>Fraud</li>
+                                
+                            
+                                
+                                    <li>Radar</li>
+                                
+                            
+                                
+                                    <li>Warnings</li>
+                                
+                            
+                                
+                                    <li>Warning</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Value</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Refunds API"></a>
+                        <h3>Stripe Refunds API</h3>
+                        <p>Refund objects allow you to refund a previously created charge that isn’t refunded yet. Funds are refunded to the credit or debit card that’s initially charged.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/refunds">Documentation</a></li>
+                            
+                                <li><a href="properties/refunds-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Refunds</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Reporting API"></a>
+                        <h3>Stripe Reporting API</h3>
+                        <p>The financial reports in the Dashboard provide downloadable reports in CSV format for a variety of accounting and reconciliation tasks. These reports are also available through the API, so you can schedule them to run automatically or run them whenever you need to receive the associated report files for accounting purposes.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/reports/api">Documentation</a></li>
+                            
+                                <li><a href="properties/reporting-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Reporting</li>
+                                
+                            
+                                
+                                    <li>Reports</li>
+                                
+                            
+                                
+                                    <li>Runs</li>
+                                
+                            
+                                
+                                    <li>Types</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Reviews API"></a>
+                        <h3>Stripe Reviews API</h3>
+                        <p>Reviews can be used to supplement automated fraud detection with human expertise.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/radar/reviews">Documentation</a></li>
+                            
+                                <li><a href="properties/reviews-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Reviews</li>
+                                
+                            
+                                
+                                    <li>Approve</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Setup API"></a>
+                        <h3>Stripe Setup API</h3>
+                        <p>Use the Setup Intents API to set up a payment method for future payments. It’s similar to a payment, but no charge is created. Set up a payment method for future payments now.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/payments/setup-intents">Documentation</a></li>
+                            
+                                <li><a href="properties/setup-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Attempts</li>
+                                
+                            
+                                
+                                    <li>Setup</li>
+                                
+                            
+                                
+                                    <li>Intents</li>
+                                
+                            
+                                
+                                    <li>Intent</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Confirm</li>
+                                
+                            
+                                
+                                    <li>Microdeposits</li>
+                                
+                            
+                                
+                                    <li>Verify</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Shipping Rates API"></a>
+                        <h3>Stripe Shipping Rates API</h3>
+                        <p>Shipping rates describe the price of shipping presented to your customers and applied to a purchase.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/shipping_rates">Documentation</a></li>
+                            
+                                <li><a href="properties/shipping-rates-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Rates</li>
+                                
+                            
+                                
+                                    <li>Shipping</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Sigma API"></a>
+                        <h3>Stripe Sigma API</h3>
+                        <p>If you have scheduled a Sigma query, you’ll receive a sigma.scheduled_query_run.created webhook each time the query runs. The webhook contains a ScheduledQueryRun object, which you can use to retrieve the query results.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/sigma/scheduled_queries">Documentation</a></li>
+                            
+                                <li><a href="properties/sigma-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Queries</li>
+                                
+                            
+                                
+                                    <li>Runs</li>
+                                
+                            
+                                
+                                    <li>Scheduled</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Sources API"></a>
+                        <h3>Stripe Sources API</h3>
+                        <p>Source objects allow you to accept a variety of payment methods. They represent a customer’s payment instrument, and can be used with the Stripe API just like a Card object once chargeable, they can be charged, or can be attached to customers.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/sources">Documentation</a></li>
+                            
+                                <li><a href="properties/sources-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Sources</li>
+                                
+                            
+                                
+                                    <li>Mandate</li>
+                                
+                            
+                                
+                                    <li>Notifications</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Verify</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Subscription API"></a>
+                        <h3>Stripe Subscription API</h3>
+                        <p>Subscriptions allow you to charge a customer on a recurring basis.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/subscriptions">Documentation</a></li>
+                            
+                                <li><a href="properties/subscription-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Subscriptions</li>
+                                
+                            
+                                
+                                    <li>Record</li>
+                                
+                            
+                                
+                                    <li>Summaries</li>
+                                
+                            
+                                
+                                    <li>Usage</li>
+                                
+                            
+                                
+                                    <li>Records</li>
+                                
+                            
+                                
+                                    <li>Schedules</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Releases</li>
+                                
+                            
+                                
+                                    <li>Search</li>
+                                
+                            
+                                
+                                    <li>Exposed</li>
+                                
+                            
+                                
+                                    <li>Discount</li>
+                                
+                            
+                                
+                                    <li>Resume</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Tax API"></a>
+                        <h3>Stripe Tax API</h3>
+                        <p>Automate sales tax, VAT, and GST compliance on all your transactions—low or no code integrations available.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/tax">Documentation</a></li>
+                            
+                                <li><a href="properties/tax-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Calculations</li>
+                                
+                            
+                                
+                                    <li>Taxes</li>
+                                
+                            
+                                
+                                    <li>Items</li>
+                                
+                            
+                                
+                                    <li>Line</li>
+                                
+                            
+                                
+                                    <li>Registrations</li>
+                                
+                            
+                                
+                                    <li>Settings</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Reversals</li>
+                                
+                            
+                                
+                                    <li>Codes</li>
+                                
+                            
+                                
+                                    <li>Rates</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Terminal API"></a>
+                        <h3>Stripe Terminal API</h3>
+                        <p>Use Stripe Terminal to accept in-person payments and extend Stripe payments to your point of sale.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/terminal">Documentation</a></li>
+                            
+                                <li><a href="properties/terminal-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Configurations</li>
+                                
+                            
+                                
+                                    <li>Terminal</li>
+                                
+                            
+                                
+                                    <li>Connections</li>
+                                
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                            
+                                
+                                    <li>Locations</li>
+                                
+                            
+                                
+                                    <li>Readers</li>
+                                
+                            
+                                
+                                    <li>Actions</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Intent</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Process</li>
+                                
+                            
+                                
+                                    <li>Setup</li>
+                                
+                            
+                                
+                                    <li>Refunds</li>
+                                
+                            
+                                
+                                    <li>Display</li>
+                                
+                            
+                                
+                                    <li>Sets</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Test Helpers API"></a>
+                        <h3>Stripe Test Helpers API</h3>
+                        <p>Stripe provides a number of resources for testing your integration. Make sure to test the following use cases before launch, and use our Postman collection to make the testing process simpler.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/implementation-guides/billing/testing">Documentation</a></li>
+                            
+                                <li><a href="properties/test-helpers-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Balance</li>
+                                
+                            
+                                
+                                    <li>Cash</li>
+                                
+                            
+                                
+                                    <li>Customers</li>
+                                
+                            
+                                
+                                    <li>Funds</li>
+                                
+                            
+                                
+                                    <li>Helpers</li>
+                                
+                            
+                                
+                                    <li>Tests</li>
+                                
+                            
+                                
+                                    <li>Authorization</li>
+                                
+                            
+                                
+                                    <li>Issuing</li>
+                                
+                            
+                                
+                                    <li>Capture</li>
+                                
+                            
+                                
+                                    <li>Expire</li>
+                                
+                            
+                                
+                                    <li>Increment</li>
+                                
+                            
+                                
+                                    <li>Reverse</li>
+                                
+                            
+                                
+                                    <li>Cards</li>
+                                
+                            
+                                
+                                    <li>Deliveries</li>
+                                
+                            
+                                
+                                    <li>Shipping</li>
+                                
+                            
+                                
+                                    <li>Fail</li>
+                                
+                            
+                                
+                                    <li>Returns</li>
+                                
+                            
+                                
+                                    <li>Ship</li>
+                                
+                            
+                                
+                                    <li>Force</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                            
+                                
+                                    <li>Refunds</li>
+                                
+                            
+                                
+                                    <li>Unlinked</li>
+                                
+                            
+                                
+                                    <li>Methods</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Present</li>
+                                
+                            
+                                
+                                    <li>Readers</li>
+                                
+                            
+                                
+                                    <li>Terminal</li>
+                                
+                            
+                                
+                                    <li>Clocks</li>
+                                
+                            
+                                
+                                    <li>Clock</li>
+                                
+                            
+                                
+                                    <li>Advance</li>
+                                
+                            
+                                
+                                    <li>Inbound</li>
+                                
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                            
+                                
+                                    <li>Treasury</li>
+                                
+                            
+                                
+                                    <li>Succeed</li>
+                                
+                            
+                                
+                                    <li>Outbound</li>
+                                
+                            
+                                
+                                    <li>Posts</li>
+                                
+                            
+                                
+                                    <li>Credits</li>
+                                
+                            
+                                
+                                    <li>Received</li>
+                                
+                            
+                                
+                                    <li>Debits</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Tokens API"></a>
+                        <h3>Stripe Tokens API</h3>
+                        <p>Tokenization is the process Stripe uses to collect sensitive card or bank account details, or personally identifiable information (PII), directly from your customers in a secure manner. A token representing this information is returned to your server to use. Use our recommended payments integrations to perform this process on the client-side. This guarantees that no sensitive card data touches your server, and allows your integration to operate in a PCI-compliant way.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/tokens">Documentation</a></li>
+                            
+                                <li><a href="properties/tokens-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Tokens</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Topups API"></a>
+                        <h3>Stripe Topups API</h3>
+                        <p>To top up your Stripe balance, you create a top-up object. You can retrieve individual top-ups, as well as list all top-ups. Top-ups are identified by a unique, random ID.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/topups">Documentation</a></li>
+                            
+                                <li><a href="properties/topups-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Topups</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Transfers API"></a>
+                        <h3>Stripe Transfers API</h3>
+                        <p>A Transfer object is created when you move funds between Stripe accounts as part of Connect.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/transfers">Documentation</a></li>
+                            
+                                <li><a href="properties/transfers-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                            
+                                
+                                    <li>Reversals</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Treasury API"></a>
+                        <h3>Stripe Treasury API</h3>
+                        <p>Stripe Treasury is a banking-as-a-service API that lets you embed financial services in your product. With Stripe’s API, you can enable businesses to hold funds, pay bills, earn yield, and manage their cash flow. Many users build Stripe Issuing in conjunction with Stripe Treasury to attach cards to spend funds in the account.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/treasury">Documentation</a></li>
+                            
+                                <li><a href="properties/treasury-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Credit</li>
+                                
+                            
+                                
+                                    <li>Reversals</li>
+                                
+                            
+                                
+                                    <li>Treasury</li>
+                                
+                            
+                                
+                                    <li>Debit</li>
+                                
+                            
+                                
+                                    <li>Accounts</li>
+                                
+                            
+                                
+                                    <li>Financial</li>
+                                
+                            
+                                
+                                    <li>Features</li>
+                                
+                            
+                                
+                                    <li>Inbound</li>
+                                
+                            
+                                
+                                    <li>Transfers</li>
+                                
+                            
+                                
+                                    <li>Cancel</li>
+                                
+                            
+                                
+                                    <li>Outbound</li>
+                                
+                            
+                                
+                                    <li>Payments</li>
+                                
+                            
+                                
+                                    <li>Credits</li>
+                                
+                            
+                                
+                                    <li>Received</li>
+                                
+                            
+                                
+                                    <li>Debits</li>
+                                
+                            
+                                
+                                    <li>Entries</li>
+                                
+                            
+                                
+                                    <li>Transactions</li>
+                                
+                                
+                        </ul>                                                                   
+                    
+
+                        <a name="Stripe Webhook API"></a>
+                        <h3>Stripe Webhook API</h3>
+                        <p>You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts.</p> 
+                        <h4>Properties</h4>
+                        <ul id="">
+                            <li><a href="">Human URL</a></li>
+                            
+                                <li><a href="">Base URL</a></li>
+                            
+                            
+                                <li><a href="https://stripe.com/docs/api/webhook_endpoints">Documentation</a></li>
+                            
+                                <li><a href="properties/webhook-openapi-original.yml">OpenAPI</a></li>
+                                
+                        </ul>
+
+                        <!-- OPERATIONS -->
+                                 
+                              
+                        
+                        <!-- OPERATIONS -->
+                        
+                        <!-- RATINGS -->
+                                 
+                             
+                         
+                        <!-- RATINGS -->                
+
+                        <h4>Tags</h4>
+                        <ul id="">
+                            
+                                
+                                    <li>Endpoints</li>
+                                
+                            
+                                
+                                    <li>Webhooks</li>
+                                
+                                
+                        </ul>                                                                   
+                                                         
+                    
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+</div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="container text-center">
+          <div class="row">
+              <div class="col">
+                <a href="http://apicommons.org" style="color: #000;">API Commons</a>
+              </div>
+              <div class="col">
+                <td><a href="https://developer.apis.io" style="color: #000;">Developers</a></td>
+              </div>
+              <div class="col">
+                <a href="https://github.com/api-search/api-search" style="color: #000;">GitHub</a>
+              </div>     
+          </div>
+      </div>         
+      </div>
+    </footer>
+    
+  </body>
+</html>

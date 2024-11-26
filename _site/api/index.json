@@ -1,0 +1,1015 @@
+{
+    "data":[
+    
+    
+    {
+    "name": "Adyen Accounting Notifications API",
+    "slug": "adyen",
+    "description": "Adyen sends notifications through webhooks to inform your system about incoming and outgoing transfers in your platform. You can use these webhooks to build your implementation. For example, you can use this information to update balances in your own dashboards or to keep track of incoming funds.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Account API",
+    "slug": "adyen",
+    "description": "This API is used for the classic integration. If you are just starting your implementation, refer to our new integration guide instead. The Account API provides endpoints for managing account-related entities on your platform. These related entities include account holders, accounts, bank accounts, shareholders, and verification-related documents. The management operations include actions such as creation, retrieval, updating, and deletion of them.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Arrangements","Bank","Close","Documents","Forms","Holders","Legal","Methods","Payouts","Processing","Shareholders","Signatories","States","Stores","Suspend","Taxes","Triggers","Unsuspend","Uploaded","Uploads","Verification"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Authentication Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen sends webhooks to inform your system about events related to cardholder authentication.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Balance Control API",
+    "slug": "adyen",
+    "description": "The Balance Control API lets you transfer funds between merchant accounts that belong to the same legal entity and are under the same company account.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Balance","Transfers"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen BinLookup API",
+    "slug": "adyen",
+    "description": "The BIN Lookup API provides endpoints for retrieving information, such as cost estimates, and 3D Secure supported version based on a given BIN.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Availability","Available","Checks","Cost","Estimates","Fees","If","Is","Secure"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Checkout API",
+    "slug": "adyen",
+    "description": "Adyen Checkout API provides a simple and flexible way to initiate and authorise online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort).",
+    "image": "",
+    "humanURL": "https://docs.adyen.com/api-explorer/Checkout/latest/overview",
+    "baseURL": "",
+    "tags": ["Amount","Apple","Authorised","Available","Balance","Brands","Cancel","Cancels","Capture","Captured","Captures","Cards","Details","Domains","Donations","Gifts","Keys","Link","Links","Methods","On","Orders","Origin","Pay","Payments","Psp","References","Refunds","Results","Reversals","Sessions","Status","Stored","Submit","The","Tokens","Transactions","Values","Verify"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Configuration API",
+    "slug": "adyen",
+    "description": "The Configuration API enables you to create a platform where you can onboard your users as account holders and create balance accounts, cards, and business accounts.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Available","Balance","Bank","Calculate","Card Orders","Cards","Change","Forms","Grants","Groups","Holders","Identification","Instruments","Items","Keys","Linked","Networks","Offers","Orders","Payments","Pin","Pins","Platforms","Public","Reveal","Routes","Rules","Sweep","Sweeps","Taxes","The","Tokens","Transactions","Transfers","Under","Validate"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Configuration Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen sends webhooks to inform your system about events that occur in your platform. These events include, for example, when an account holders capabilities are updated, or when a sweep configuration is created or updated. When an event occurs, Adyen makes an HTTP POST request to a URL on your server and includes the details of the event in the request body. You can use these webhooks to build your implementation.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Data Protection API",
+    "slug": "adyen",
+    "description": "Adyen Data Protection API provides a way for you to process [Subject Erasure Requests](https://gdpr-info.eu/art-17-gdpr/) as mandated in GDPR. Use our API to submit a request to delete shopper''s data, including payment details and other related information (for example, delivery address or shopper email).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Erasure","Subjects","Submit"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Disputes API",
+    "slug": "adyen",
+    "description": "You can use the Disputes API to automate the dispute handling process so that you can respond to disputes and chargebacks as soon as they are initiated. The Disputes API lets you retrieve defense reasons, supply and delete defense documents, and accept or defend disputes.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accept","Applicable","Defend","Defense","Disputes","Documents","Reasons","Supply"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Funds API",
+    "slug": "adyen",
+    "description": "The Fund API provides endpoints for managing the funds in the accounts on your platform. These management operations include, for example, the transfer of funds from one account to another, the payout of funds to an account holder, and the retrieval of balances in an account.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Balance","Balances","Benefactor's","Beneficiary","Between","Current","Debit","Designate","Direct","Funds","Holders","Most","Out","Paid","Pay","Payouts","Platforms","Recent","Refunds","Send","Since","The","Transactions","Transfers"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Hosted Onboarding API",
+    "slug": "adyen",
+    "description": "The Fund API provides endpoints for managing the funds in the accounts on your platform. These management operations include, for example, the transfer of funds from one account to another, the payout of funds to an account holder, and the retrieval of balances in an account.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Adyen-hosted","Compliance","Link","Onboarding","PCI","Page","Questionnaires","URL"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Legal Entity API",
+    "slug": "adyen",
+    "description": "The Legal Entity Management API enables you to manage legal entities that contain information required for verification.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accept","Acceptance","Adyen-hosted","Business","Checks","Confirm","Data","Details","Documents","Entities","Errors","Generate","Hosted","Information","Instruments","Legal","Line","Lines","Link","Links","Onboarding","PCI","Page","Pciid","Questionnaires","Reviews","Services","Sign","Status","Templates","Terms","Terms Of Service Documents","Theme","Themes","Transfers","Under","Uploads","Verification"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Legal Entity API",
+    "slug": "adyen",
+    "description": "The Legal Entity Management API enables you to manage legal entities that contain information required for verification.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accept","Acceptance","Adyen-hosted","Business","Checks","Confirm","Data","Details","Documents","Entities","Errors","Generate","Hosted","Information","Instruments","Legal","Line","Lines","Link","Links","Onboarding","PCI","Page","Pciid","Questionnaires","Reviews","Services","Sign","Status","Templates","Terms","Terms Of Service Documents","Theme","Themes","Transfers","Under","Uploads","Verification"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Management API",
+    "slug": "adyen",
+    "description": "Configure and manage your Adyen company and merchant accounts, stores, and payment terminals.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Actions","Activate","Allowed","Android","Apple","Applications","Billing","Cancel","Certificates","Clients","Companies","Conditions","Configurations","Credentials","Descriptions","Details","Domains","Entities","Generate","HMAC","Keys","Locations","Logic","Logo","Logos","Me","Merchants","Methods","Models","Orders","Origin","Origins","Pay","Payments","Payouts","Products","Reassign","References","Removes","Rules","Sets","Settings","Shipping","Split","Store","Stores","Terminal","Terminals","Tests","The","Up","Uploads","Users","Webhooks"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Management Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen uses webhooks to inform your system about events that happen with your Adyen company and merchant accounts, stores, payment terminals, and payment methods when using [Management API](https://docs.adyen.com/api-explorer/#/ManagementService/latest/overview). When a and includes the details of the event in the request body. See [Webhooks](https://docs.adyen.com/development-resources/webhooks) for more information.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Notification Configuration API",
+    "slug": "adyen",
+    "description": "This API is used for the classic integration. If you are just starting your implementation, refer to our [new integration guide](https://docs.adyen.com/marketplaces-and-platforms) instead.\n\nThe Notification Configuration API provides endpoints for setting up and testing notifications that inform you of events on your platform, for example when a verification check or a payout has been completed.\n\nFor more information, refer to our [documentation](https://docs.adyen.com/marketplaces-and-platforms/classic/notifications).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Configurations","Notifications","Subscribe","Subscriptions","Tests"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Notification Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen sends notifications through webhooks to inform your system about events that occur in the balance platform. These events include, for example, a card user making a payment, or a merchant starting a refund. When an event occurs, Adyen makes an HTTP POST request to a URL on your server and includes the details of the event in the request body. You can use the webhooks to build your implementation. For example, you can use this information to update balances in your own dashboards or to keep track of incoming funds.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Notifications API",
+    "slug": "adyen",
+    "description": "The Notification API sends notifications to the endpoints specified in a given subscription. Subscriptions are managed through the Notification Configuration API. The API specifications listed here detail the format of each notification. For more information, refer to our [documentation](https://docs.adyen.com/marketplaces-and-platforms/classic/notifications).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Payments API",
+    "slug": "adyen",
+    "description": "A set of API endpoints that allow you to initiate, settle, and modify payments on the Adyen payments platform. You can use the API to accept card payments (including One-Click and 3D Secure), bank transfers, ewallets, and many other payment methods.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Amount","Authentication","Authorised","Authorization","Cancel","Capture","Captured","Change","Complete","Donate","Donations","In-person","Payments","Pending","References","Refunds","Results","The","Using","Your","~!"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Payouts API",
+    "slug": "adyen",
+    "description": "A set of API endpoints that allow you to store payout details, confirm, or decline a payout.\n\nFor more information, refer to [Online payouts](https://docs.adyen.com/online-payments/online-payouts).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Cancel","Cards","Confirm","Detail","Details","Instant","Make","Party","Payouts","Store","Submit","Third"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen POS Terminal API",
+    "slug": "adyen",
+    "description": "This API provides endpoints for managing your point-of-sale (POS) payment terminals. You can use the API to obtain information about a specific terminal, retrieve overviews of your terminals and stores, and assign terminals to a merchant account or store.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Assign","Details","Store","Stores","Terminal","Terminals","The","Under"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Recurring API",
+    "slug": "adyen",
+    "description": "The Recurring APIs allow you to manage and remove your tokens or saved payment details. Tokens should be created with validation during a payment request. For more information, refer to our [Tokenization documentation](https://docs.adyen.com/online-payments/tokenization).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Ask","Contracts","Details","Disable","Existing","Issuer","Linked","Notify","Payments","Permits","Recurring","Running","Schedules","Shopper","Stored","The"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Report Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen sends webhooks to inform your system that reports were generated and are ready to be downloaded. You can download reports programmatically by making an HTTP GET request, or manually from your [Balance Platform Customer Area](https://balanceplatform-test.adyen.com/balanceplatform).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Stored Value API",
+    "slug": "adyen",
+    "description": "A set of API endpoints to manage stored value products.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Balance","Cards","Change","Changes","Checks","Issues","Load","Loads","Merge","Methods","Payments","Status","The","Transactions","Voids"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Terminal API",
+    "slug": "adyen",
+    "description": "The Adyen Terminal API lets you make payments, issue refunds, collect shopper information, and perform other shopper-terminal interactions using a payment terminal supplied by Adyen.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Acquisition","Administrative","Balance","Balance Inquiry","Card Acquisitions","Card Reader Applications","Cards","Diagnosis","Display","Enable","Enable Service","Gettotals","Inputs","Inquiries","Login","Logout","Loyalty","Payments","Print","Readers","Reconciliation","Reversals","Services","Status","Stored","Stored Values","Totals","Transaction Status","Transactions","Value"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Test Cards API",
+    "slug": "adyen",
+    "description": "The Test Cards API provides endpoints for generating custom test card numbers. For more information, refer to [Custom test cards](https://docs.adyen.com/development-resources/testing/create-test-cards) documentation.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Cards","Creates","More","One","Ranges","Tests"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Transaction Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen sends webhooks to inform your system about incoming and outgoing transfers in your platform. You can use these webhooks to build your implementation. For example, you can use this information to update balances in your own dashboards or to keep track of incoming funds.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Transfer Webhooks API",
+    "slug": "adyen",
+    "description": "Adyen sends webhooks to inform your system about incoming and outgoing transfers in your platform. You can use these webhooks to build your implementation. For example, you can use this information to update balances in your own dashboards or to keep track of incoming funds.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Transfers API",
+    "slug": "adyen",
+    "description": "This API provides endpoints that you can use to transfer funds, whether when [paying out to a transfer instrument](https://docs.adyen.com/marketplaces-and-platforms/payout-to-users/on-demand-payouts), [sending funds to third parties](https://docs.adyen.com/marketplaces-and-platforms/business-accounts/send-receive-funds) for users with business bank accounts, or to [request a payout for a grant offer](https://docs.adyen.com/marketplaces-and-platforms/capital). The API also supports use cases for [getting transactions for business bank accounts](https://docs.adyen.com/marketplaces-and-platforms/business-accounts/transactions-api) and getting [grants and its outstanding balances](https://docs.adyen.com/marketplaces-and-platforms/capital#get-balances).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Capital","Details","Funds","Grants","Grants\"\"","Payouts","References","Returns","Transactions","Transfers"],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Adyen Webhooks API",
+    "slug": "adyen",
+    "description": "We use webhooks to send you updates about payment status updates, newly available reports, and other events that you can subscribe to. For more information, refer to our [documentation](https://docs.adyen.com/development-resources/webhooks).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    }
+    ,
+    
+    {
+    "name": "Paypal Billing Subscriptions API",
+    "slug": "paypal",
+    "description": "You can use billing plans and subscriptions to create subscriptions that process recurring PayPal payments for physical or digital goods, or services. A plan includes pricing and billing cycle information that defines the amount and frequency of charge for a subscription. You can also define a fixed plan, such as a $5 basic plan or a volume- or graduated-based plan with pricing tiers based on the quantity purchased. For more information, see <a href=\"/docs/subscriptions/\">Subscriptions Overview</a>.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Paypal Catalog Products API",
+    "slug": "paypal",
+    "description": "Merchants can use the Catalog Products API to create products, which are goods and services.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Paypal Orders API",
+    "slug": "paypal",
+    "description": "An order represents a payment between two or more parties. Use the Orders API to create, update, retrieve, authorize, and capture orders.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    },
+    
+    {
+    "name": "Paypal Disputes API",
+    "slug": "paypal",
+    "description": "Occasionally, something goes wrong with a customer's order. To dispute a charge, a customer can create a dispute with PayPal. PayPal merchants, partners, and external developers can use the PayPal Disputes API to manage customer disputes.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": [],
+    "properties": null,
+    "common": null
+    }
+    ,
+    
+    {
+    "name": "Stripe Accounts API",
+    "slug": "stripe",
+    "description": "This is an object representing a Stripe account. You can retrieve it to see properties on the account like its current requirements or if the account is enabled to make live charges or receive payouts.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Bank","Capabilities","External","Links","Login","People","Person","Persons","Reject","Sessions"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/accounts"},{"type":"OpenAPI","url":"properties/accounts-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Apple Pay API",
+    "slug": "stripe",
+    "description": "Stripe users can accept Apple Pay in iOS applications in iOS 9 and above, and on the web in Safari starting with iOS 10 or macOS Sierra. There are no additional fees to process Apple Pay payments, and the pricing is the same as other card transactions.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Apple","Domains","Pay"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/apple-pay"},{"type":"OpenAPI","url":"properties/apple-pay-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Application Fees API",
+    "slug": "stripe",
+    "description": "When you collect a transaction fee on top of a charge made for your user (using Connect), an Application Fee object is created in your account. You can list, retrieve, and refund application fees.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Applications","Fees","Fee","Refunds"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/application_fees"},{"type":"OpenAPI","url":"properties/application-fees-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Application Secrets API",
+    "slug": "stripe",
+    "description": "Secret Store is an API that allows Stripe Apps developers to securely persist secrets for use by UI Extensions and app backends.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Applications","Secrets","Find"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/secret_management"},{"type":"OpenAPI","url":"properties/application-secrets-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Balance API",
+    "slug": "stripe",
+    "description": "This is an object representing your Stripe balance. You can retrieve it to see the balance currently on your Stripe account. You can also retrieve the balance history, which contains a list of transactions that contributed to the balance (charges, payouts, and so forth).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Balance","History","Transactions"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/balance"},{"type":"OpenAPI","url":"properties/balance-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Billing API",
+    "slug": "stripe",
+    "description": "Create and manage subscriptions, recurring payments, and recurring revenue.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Billing","Configurations","Portals","Sessions"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/billing"},{"type":"OpenAPI","url":"properties/billing-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Charges API",
+    "slug": "stripe",
+    "description": "The Charge object represents a single attempt to move money into your Stripe account. PaymentIntent confirmation is the most common way to create Charges, but transferring money to a different Stripe account through Connect also creates Charges. Some legacy payment flows create Charges directly, which is not recommended for new integrations.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Charges","Search","Charge","Capture","Disputes","Close","Refunds"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/charges"},{"type":"OpenAPI","url":"properties/charges-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Checkout API",
+    "slug": "stripe",
+    "description": "Checkout is a low-code payment integration that creates a customizable form for collecting payments. You can embed Checkout directly in your website or redirect customers to a Stripe-hosted payment page. It supports one-time payments and subscriptions and accepts over 40 local payment methods.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Checkout","Sessions","Expire","Items","Line"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/payments/checkout"},{"type":"OpenAPI","url":"properties/checkout-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Climate API",
+    "slug": "stripe",
+    "description": "Stripe Climate is the easiest way to help promising permanent carbon removal technologies launch and scale. Join a growing group of ambitious businesses that are changing the course of carbon removal.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Climate","Orders","Cancel","Products","Reservations","Confirm","Suppliers","Supplier"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/climate"},{"type":"OpenAPI","url":"properties/climate-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Country API",
+    "slug": "stripe",
+    "description": "Stripe needs to collect certain pieces of information about each account created. These requirements can differ depending on the account’s country. The Country Specs API makes these rules available to your integration.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Countries","Specs"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/country_specs"},{"type":"OpenAPI","url":"properties/country-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Coupons API",
+    "slug": "stripe",
+    "description": "A coupon contains information about a percent-off or amount-off discount you might want to apply to a customer. Coupons may be applied to subscriptions, invoices, checkout sessions, quotes, and more. Coupons do not work with conventional one-off charges or payment intents.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Coupons"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/coupons"},{"type":"OpenAPI","url":"properties/coupons-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Credit Notes API",
+    "slug": "stripe",
+    "description": "Issue a credit note to adjust an invoice’s amount after the invoice is finalized.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Credit","Notes","Previews","Lines"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/credit_notes"},{"type":"OpenAPI","url":"properties/credit-notes-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Customers API",
+    "slug": "stripe",
+    "description": "This object represents a customer of your business. Use it to create recurring charges and track payments that belong to the same customer.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Customers","Search","Balance","Transactions","Accounts","Bank","Verify","Cards","Cash","Discount","Funding","Instructions","Methods","Payments","Sources","Subscriptions","Exposed","Ids","Taxes"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/customers"},{"type":"OpenAPI","url":"properties/customers-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Disputes API",
+    "slug": "stripe",
+    "description": "A dispute occurs when a customer questions your charge with their card issuer. When this happens, you have the opportunity to respond to the dispute with evidence that shows that the charge is legitimate.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Disputes","Close"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/disputes"},{"type":"OpenAPI","url":"properties/disputes-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Ephemeral Keys API",
+    "slug": "stripe",
+    "description": "Stripe.js uses ephemeral keys to securely retrieve Card information from the Stripe API without publicly exposing your secret keys. You need to do some of the ephemeral key exchange on the server-side to set this up.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Ephemeral","Keys"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/issuing/elements"},{"type":"OpenAPI","url":"properties/ephemeral-keys-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Events API",
+    "slug": "stripe",
+    "description": "Events are our way of letting you know when something interesting happens in your account. When an interesting event occurs, we create a new Event object.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Events"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/events"},{"type":"OpenAPI","url":"properties/events-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Exchange Rates API",
+    "slug": "stripe",
+    "description": "Stripe supports processing charges in 135+ currencies allowing you to present prices in a customer’s native currency. Doing so can improve sales and help customers avoid conversion costs. In order to present prices in your customer’s currency, you need to specify the presentment currency when creating a PaymentIntent or a charge.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Exchange","Rates"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/currencies/conversions"},{"type":"OpenAPI","url":"properties/exchange-rates-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Files API",
+    "slug": "stripe",
+    "description": "This object represents files hosted on Stripe’s servers. You can upload files with the create file request (for example, when uploading dispute evidence). Stripe also creates files independently (for example, the results of a Sigma scheduled query).",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Files","File"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/files"},{"type":"OpenAPI","url":"properties/files-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Financial Connections API",
+    "slug": "stripe",
+    "description": "Financial Connections lets your users securely share their financial data by linking their financial accounts to your business. Use Financial Connections to access user-permissioned account data such as tokenized account and routing numbers, balances, ownerships details, and transactions.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Connections","Financial","Disconnect","Owners","Refresh","Subscribe","Unsubscribe","Sessions","Transactions"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/financial-connections"},{"type":"OpenAPI","url":"properties/financial-connections-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Identity API",
+    "slug": "stripe",
+    "description": "Use Stripe Identity to confirm the identity of global users to prevent fraud, streamline risk operations, and increase trust and safety.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Entities","Identity","Reports","Verification","Sessions","Cancel","Redact"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/identity"},{"type":"OpenAPI","url":"properties/identity-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Invoice API",
+    "slug": "stripe",
+    "description": "Invoices are statements of amounts owed by a customer, and are either generated one-off, or generated periodically from a subscription.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Invoice Items","Invoices","Search","Upcoming","Lines","Finalize","Items","Line","Mark","Uncollectible","Pay","Send"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/invoices"},{"type":"OpenAPI","url":"properties/invoice-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Issuing API",
+    "slug": "stripe",
+    "description": "An API for businesses to instantly create, manage, and distribute payment cards.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Authorization","Issuing","Approve","Decline","Card Holders","Cards","Disputes","Submit","Settlements","Tokens","Transactions"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/issuing"},{"type":"OpenAPI","url":"properties/issuing-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Link API",
+    "slug": "stripe",
+    "description": "You can use the Payment Links API to create a payment link that you can share with your customers. Stripe redirects customers who open this link to a Stripe-hosted payment page.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Accounts","Link","Sessions","Linked","Disconnect","Owners","Refresh"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/payment-links/api"},{"type":"OpenAPI","url":"properties/link-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Payment Intents API",
+    "slug": "stripe",
+    "description": "A PaymentIntent guides you through the process of collecting a payment from your customer. We recommend that you create exactly one PaymentIntent for each order or customer session in your system. You can reference the PaymentIntent later to see the history of payment attempts for a particular session.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Intents","Payments","Search","Intent","Balance","Customers","Cancel","Capture","Confirm","Authorization","Increment","Microdeposits","Verify"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/payment_intents"},{"type":"OpenAPI","url":"properties/payment-intents-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Payment Links API",
+    "slug": "stripe",
+    "description": "A payment link is a shareable URL that will take your customers to a hosted payment page. A payment link can be shared and used multiple times. When a customer opens a payment link it will open a new checkout session to render the payment page. You can use checkout session events to track payments through payment links.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Links","Payments","Link","Items","Line"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/payment_links/payment_links"},{"type":"OpenAPI","url":"properties/payment-links-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Payment Method API",
+    "slug": "stripe",
+    "description": "The Payment Methods API allows you to accept a variety of payment methods through a single API. A PaymentMethod object contains the payment method details to create payments.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Configurations","Methods","Payments","Domains","Ate","Val","Validate","Attach","Detach"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/payments/payment-methods"},{"type":"OpenAPI","url":"properties/payment-method-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Payouts API",
+    "slug": "stripe",
+    "description": "A Payout object is created when you receive funds from Stripe, or when you initiate a payout to either a bank account or debit card of a connected Stripe account. You can retrieve individual payouts, and list all payouts. Payouts are made on varying schedules, depending on your country and industry.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Payouts","Cancel","Reverse"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/payouts"},{"type":"OpenAPI","url":"properties/payouts-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Plans API",
+    "slug": "stripe",
+    "description": "You can now model subscriptions more flexibly using the Prices API. It replaces the Plans API and is backwards compatible to simplify your migration.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Plans","Plan"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/plans"},{"type":"OpenAPI","url":"properties/plans-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Prices API",
+    "slug": "stripe",
+    "description": "Prices define the unit cost, currency, and (optional) billing cycle for both recurring and one-time purchases of products. Products help you track inventory or provisioning, and prices help you track payment terms. Different physical goods or levels of service should be represented by products, and pricing options should be represented by prices. This approach lets you change prices without having to change your provisioning scheme.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Prices","Search"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/prices"},{"type":"OpenAPI","url":"properties/prices-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Products API",
+    "slug": "stripe",
+    "description": "Products describe the specific goods or services you offer to your customers. For example, you might offer a Standard and Premium version of your goods or service; each version would be a separate Product. They can be used in conjunction with Prices to configure pricing in Payment Links, Checkout, and Subscriptions.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Products","Search"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/products"},{"type":"OpenAPI","url":"properties/products-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Promotion Codes API",
+    "slug": "stripe",
+    "description": "A Promotion Code represents a customer-redeemable code for a coupon. It can be used to create multiple codes for a single coupon.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Codes","Promotion","Code"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/promotion_codes"},{"type":"OpenAPI","url":"properties/promotion-codes-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Quotes API",
+    "slug": "stripe",
+    "description": "A Quote is a way to model prices that you’d like to provide to a customer. Once accepted, it will automatically create an invoice, subscription or subscription schedule.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Quotes","Accept","Cancel","Computed","Items","Line","Upfront","Finalize","PDF"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/quotes"},{"type":"OpenAPI","url":"properties/quotes-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Radar API",
+    "slug": "stripe",
+    "description": "Stripe Radar provides real-time fraud protection and requires no additional development time. Fraud professionals can add Radar for Fraud Teams to customize protection and get deeper insights.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Early","Fraud","Radar","Warnings","Warning","Items","Value"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/radar"},{"type":"OpenAPI","url":"properties/radar-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Refunds API",
+    "slug": "stripe",
+    "description": "Refund objects allow you to refund a previously created charge that isn’t refunded yet. Funds are refunded to the credit or debit card that’s initially charged.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Refunds","Cancel"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/refunds"},{"type":"OpenAPI","url":"properties/refunds-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Reporting API",
+    "slug": "stripe",
+    "description": "The financial reports in the Dashboard provide downloadable reports in CSV format for a variety of accounting and reconciliation tasks. These reports are also available through the API, so you can schedule them to run automatically or run them whenever you need to receive the associated report files for accounting purposes.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Reporting","Reports","Runs","Types"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/reports/api"},{"type":"OpenAPI","url":"properties/reporting-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Reviews API",
+    "slug": "stripe",
+    "description": "Reviews can be used to supplement automated fraud detection with human expertise.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Reviews","Approve"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/radar/reviews"},{"type":"OpenAPI","url":"properties/reviews-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Setup API",
+    "slug": "stripe",
+    "description": "Use the Setup Intents API to set up a payment method for future payments. It’s similar to a payment, but no charge is created. Set up a payment method for future payments now.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Attempts","Setup","Intents","Intent","Cancel","Confirm","Microdeposits","Verify"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/payments/setup-intents"},{"type":"OpenAPI","url":"properties/setup-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Shipping Rates API",
+    "slug": "stripe",
+    "description": "Shipping rates describe the price of shipping presented to your customers and applied to a purchase.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Rates","Shipping","Tokens"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/shipping_rates"},{"type":"OpenAPI","url":"properties/shipping-rates-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Sigma API",
+    "slug": "stripe",
+    "description": "If you have scheduled a Sigma query, you’ll receive a sigma.scheduled_query_run.created webhook each time the query runs. The webhook contains a ScheduledQueryRun object, which you can use to retrieve the query results.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Queries","Runs","Scheduled"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/sigma/scheduled_queries"},{"type":"OpenAPI","url":"properties/sigma-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Sources API",
+    "slug": "stripe",
+    "description": "Source objects allow you to accept a variety of payment methods. They represent a customer’s payment instrument, and can be used with the Stripe API just like a Card object once chargeable, they can be charged, or can be attached to customers.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Sources","Mandate","Notifications","Transactions","Verify"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/sources"},{"type":"OpenAPI","url":"properties/sources-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Subscription API",
+    "slug": "stripe",
+    "description": "Subscriptions allow you to charge a customer on a recurring basis.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Items","Subscriptions","Record","Summaries","Usage","Records","Schedules","Cancel","Releases","Search","Exposed","Discount","Resume"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/subscriptions"},{"type":"OpenAPI","url":"properties/subscription-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Tax API",
+    "slug": "stripe",
+    "description": "Automate sales tax, VAT, and GST compliance on all your transactions—low or no code integrations available.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Calculations","Taxes","Items","Line","Registrations","Settings","Transactions","Reversals","Codes","Rates"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/tax"},{"type":"OpenAPI","url":"properties/tax-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Terminal API",
+    "slug": "stripe",
+    "description": "Use Stripe Terminal to accept in-person payments and extend Stripe payments to your point of sale.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Configurations","Terminal","Connections","Tokens","Locations","Readers","Actions","Cancel","Intent","Payments","Process","Setup","Refunds","Display","Sets"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/terminal"},{"type":"OpenAPI","url":"properties/terminal-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Test Helpers API",
+    "slug": "stripe",
+    "description": "Stripe provides a number of resources for testing your integration. Make sure to test the following use cases before launch, and use our Postman collection to make the testing process simpler.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Balance","Cash","Customers","Funds","Helpers","Tests","Authorization","Issuing","Capture","Expire","Increment","Reverse","Cards","Deliveries","Shipping","Fail","Returns","Ship","Force","Transactions","Refunds","Unlinked","Methods","Payments","Present","Readers","Terminal","Clocks","Clock","Advance","Inbound","Transfers","Treasury","Succeed","Outbound","Posts","Credits","Received","Debits"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/implementation-guides/billing/testing"},{"type":"OpenAPI","url":"properties/test-helpers-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Tokens API",
+    "slug": "stripe",
+    "description": "Tokenization is the process Stripe uses to collect sensitive card or bank account details, or personally identifiable information (PII), directly from your customers in a secure manner. A token representing this information is returned to your server to use. Use our recommended payments integrations to perform this process on the client-side. This guarantees that no sensitive card data touches your server, and allows your integration to operate in a PCI-compliant way.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Tokens"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/tokens"},{"type":"OpenAPI","url":"properties/tokens-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Topups API",
+    "slug": "stripe",
+    "description": "To top up your Stripe balance, you create a top-up object. You can retrieve individual top-ups, as well as list all top-ups. Top-ups are identified by a unique, random ID.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Topups","Cancel"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/topups"},{"type":"OpenAPI","url":"properties/topups-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Transfers API",
+    "slug": "stripe",
+    "description": "A Transfer object is created when you move funds between Stripe accounts as part of Connect.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Transfers","Reversals"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/transfers"},{"type":"OpenAPI","url":"properties/transfers-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Treasury API",
+    "slug": "stripe",
+    "description": "Stripe Treasury is a banking-as-a-service API that lets you embed financial services in your product. With Stripe’s API, you can enable businesses to hold funds, pay bills, earn yield, and manage their cash flow. Many users build Stripe Issuing in conjunction with Stripe Treasury to attach cards to spend funds in the account.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Credit","Reversals","Treasury","Debit","Accounts","Financial","Features","Inbound","Transfers","Cancel","Outbound","Payments","Credits","Received","Debits","Entries","Transactions"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/treasury"},{"type":"OpenAPI","url":"properties/treasury-openapi-original.yml"}],
+    "common": null
+    },
+    
+    {
+    "name": "Stripe Webhook API",
+    "slug": "stripe",
+    "description": "You can configure webhook endpoints via the API to be notified about events that happen in your Stripe account or connected accounts.",
+    "image": "",
+    "humanURL": "",
+    "baseURL": "",
+    "tags": ["Endpoints","Webhooks"],
+    "properties": [{"type":"Documentation","url":"https://stripe.com/docs/api/webhook_endpoints"},{"type":"OpenAPI","url":"properties/webhook-openapi-original.yml"}],
+    "common": null
+    }
+    ]
+    }
